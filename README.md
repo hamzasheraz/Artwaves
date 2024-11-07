@@ -45,9 +45,14 @@ Install dependencies
 ```bash
   npm install
 ```
-
 Start the server
 
 ```bash
   npm run start
 ```
+
+## Environment Dependency
+
+~create a .env file in this directory
+~and place the following command
+REACT_APP_JWT_SECRET='Your jwt secret key'
